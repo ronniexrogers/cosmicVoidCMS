@@ -8,10 +8,10 @@ const devOnlyPlugins = [getStartedPlugin()]
 
 export default defineConfig({
   name: 'default',
-  title: 'seashell-squid',
+  title: 'cosmic-void',
 
   projectId: 'ygpvcg8z',
-  dataset: 'production',
+  dataset: 'gallery',
 
   plugins: [deskTool(), visionTool(), ...(isDev ? devOnlyPlugins : [])],
 

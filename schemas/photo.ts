@@ -1,12 +1,17 @@
 export default {
     name: 'photo',
-    type: 'image',
+    type: 'document',
       title: 'Photo',
     fields: [
       {
         name: 'tile',
         type: 'string',
         title: 'Title'
+      },
+      {
+        name: 'upload',
+        type: 'image',
+        title: 'Upload'
       }
     ]
   }
